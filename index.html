@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINOSAN - Inovasi Anti-Biofilm Generasi Baru</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons (CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Config for Custom Font -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800 antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 shadow-sm border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-2">
+                    <div class="bg-blue-600 text-white p-2 rounded-lg">
+                        <i data-lucide="dna" class="w-7 h-7"></i>
+                    </div>
+                    <span class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">
+                        MINOSAN
+                    </span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                    <a href="#problem" class="hover:text-blue-600 transition-colors">Latar Belakang</a>
+                    <a href="#solution" class="hover:text-blue-600 transition-colors">Inovasi & Urgensi</a>
+                    <a href="#mechanism" class="hover:text-blue-600 transition-colors">Mekanisme & Simulasi</a>
+                    <a href="#evidence" class="hover:text-blue-600 transition-colors">Hasil Riset</a>
+                </div>
+                <a href="#mechanism" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-semibold transition-all shadow-md hover:shadow-lg">
+                    Pelajari Produk
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-blue-900">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-400 via-blue-900 to-blue-900"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-800/50 text-amber-400 border border-amber-400/30 mb-8 backdrop-blur-sm">
+                    <i data-lucide="shield" class="w-4 h-4"></i>
+                    <span class="text-sm font-semibold tracking-wide">Inovasi Anti-Biofilm Generasi Baru</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+                    Masa Depan Penyembuhan Luka Diabetes, <br class="hidden lg:block"/>
+                    <span class="text-amber-400">Tanpa Ancaman Resistensi Antibiotik.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-blue-100 mb-10 leading-relaxed max-w-3xl mx-auto">
+                    Memperkenalkan <strong>MINOSAN</strong>: Hidrogel Nanopartikel Kurkumin-Kitosan sebagai Strategi Multitarget Anti-Biofilm pada <i>Diabetic Foot Ulcer</i> (DFU).
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#mechanism" class="bg-amber-500 hover:bg-amber-400 text-blue-950 px-8 py-4 rounded-full font-bold text-lg transition-all shadow-[0_0_20px_rgba(245,158,11,0.4)] flex items-center justify-center gap-2">
+                        Jalankan Simulasi Lab <i data-lucide="play" class="w-5 h-5 fill-blue-950"></i>
+                    </a>
+                    <a href="#evidence" class="bg-transparent hover:bg-blue-800 text-white border-2 border-blue-400/50 px-8 py-4 rounded-full font-bold text-lg transition-all flex items-center justify-center gap-2">
+                        <i data-lucide="activity" class="w-5 h-5"></i> Lihat Hasil Riset
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. PROBLEM SECTION (Latar Belakang) -->
+    <section id="problem" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Krisis DFU & Kegagalan Antibiotik Konvensional</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                    Data IDF 2024 mencatat <strong class="text-blue-600">20,43 Juta</strong> penyandang diabetes di Indonesia (estimasi 28,58 Juta pada 2050). Komplikasi DFU berujung pada risiko amputasi yang masif akibat infeksi yang tak tertangani.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group">
+                    <div class="bg-red-100 text-red-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="shield" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Matriks EPS: Perisai Fisik</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Kolonisasi bakteri (didominasi <i>P. aeruginosa</i> & <i>S. aureus</i>) membentuk matriks Extracellular Polymeric Substances (EPS) yang memblokir total penetrasi antibiotik.
+                    </p>
+                </div>
+                
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group">
+                    <div class="bg-orange-100 text-orange-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="activity" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Sel Dorman Kebal Obat</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Lingkungan biofilm yang tertutup menciptakan sel bakteri yang dorman (tertidur), membuatnya sepenuhnya kebal terhadap terapi obat standar yang bergantung pada pembelahan sel.
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group">
+                    <div class="bg-purple-100 text-purple-600 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="alert-triangle" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3">Transfer Gen Resistensi</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Kerapatan bakteri di dalam biofilm memfasilitasi pertukaran genetik dengan cepat, menciptakan siklus resistensi antibiotik yang menjadi ancaman kesehatan global.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SOLUTION SECTION (Inovasi & Urgensi) -->
+    <section id="solution" class="py-24 bg-gradient-to-b from-blue-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- URGENSI BANNER -->
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 md:p-8 rounded-r-2xl shadow-sm mb-16 relative overflow-hidden">
+                <div class="absolute top-0 right-0 opacity-5">
+                    <i data-lucide="alert-triangle" class="w-40 h-40"></i>
+                </div>
+                <div class="relative z-10 flex flex-col md:flex-row gap-6 items-center">
+                    <div class="bg-red-100 p-4 rounded-full text-red-600 flex-shrink-0">
+                        <i data-lucide="alert-triangle" class="w-9 h-9"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-red-900 mb-2">Urgensi Inovasi: Menghentikan Lahirnya "Superbug"</h3>
+                        <p class="text-red-800/80 leading-relaxed">
+                            Praktik medis saat ini yang terus-menerus memberikan antibiotik dosis tinggi pada luka DFU justru memaksa bakteri untuk bermutasi. Kita sedang berpacu dengan waktu sebelum antibiotik sepenuhnya kehilangan fungsinya. <strong>Diperlukan strategi yang melumpuhkan bakteri tanpa membunuhnya secara langsung</strong> agar tidak memicu respon mutasi genetik bertahan hidup. Di sinilah MINOSAN memainkan peran krusialnya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="w-full lg:w-1/2">
+                    <div class="relative">
+                        <!-- Abstract placeholder for Hydrogel image -->
+                        <div class="aspect-square bg-blue-100 rounded-3xl overflow-hidden relative border-8 border-white shadow-2xl flex items-center justify-center">
+                            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-200/50 via-transparent to-blue-200/50"></div>
+                            <i data-lucide="microscope" class="text-blue-500/30 absolute w-32 h-32"></i>
+                            <div class="z-10 text-center p-8">
+                                <div class="flex justify-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full bg-amber-400 flex items-center justify-center shadow-lg border-2 border-white">
+                                        <i data-lucide="leaf" class="text-white w-8 h-8"></i>
+                                    </div>
+                                    <div class="w-16 h-16 rounded-full bg-emerald-500 flex items-center justify-center shadow-lg border-2 border-white">
+                                        <i data-lucide="shield" class="text-white w-8 h-8"></i>
+                                    </div>
+                                </div>
+                                <h4 class="text-2xl font-bold text-blue-900">Sinergi Hidrogel</h4>
+                                <p class="text-blue-700 font-medium">Kurkumin + Kitosan</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating badge -->
+                        <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl border border-slate-100 flex items-center gap-4 z-20">
+                            <div class="bg-emerald-100 p-3 rounded-full text-emerald-600">
+                                <i data-lucide="droplet" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold text-slate-800">Moist Wound Healing</p>
+                                <p class="text-xs text-slate-500">Kelembapan luka ideal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-6">
+                        Kekuatan Alam, <br/>
+                        <span class="text-amber-500">Disempurnakan Nanoteknologi.</span>
+                    </h2>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        MINOSAN adalah terobosan terapeutik yang merespons urgensi di atas dengan memanfaatkan kekayaan alam lokal: ekstrak <strong>Curcuma longa (Kurkumin)</strong> dan limbah cangkang udang <strong>Litopenaeus vannamei (Kitosan)</strong>. 
+                    </p>
+                    
+                    <ul class="space-y-6">
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <i data-lucide="check-circle" class="text-amber-500 w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Ekstrak Kurkumin (Curcuma longa)</h4>
+                                <p class="text-slate-600 mt-1">Senyawa aktif hidrofobik yang dienkapsulasi untuk memblokir jalur komunikasi antar bakteri (QS) secara presisi dan menekan inflamasi (IL-6 & MPO).</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <i data-lucide="check-circle" class="text-emerald-500 w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Kitosan (Litopenaeus vannamei)</h4>
+                                <p class="text-slate-600 mt-1">Polimer alami kationik penyusun matriks nanopartikel yang bertugas mendisrupsi matriks pelindung biofilm melalui interaksi muatan fisik.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <i data-lucide="check-circle" class="text-blue-500 w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Formulasi Hidrogel Ionik</h4>
+                                <p class="text-slate-600 mt-1">Metode gelasi ionik memastikan pelepasan obat yang stabil (sustained release) sekaligus menjaga <i>moist wound healing</i> untuk regenerasi sel epitel baru.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. MECHANISM SECTION (How it Works & Lab Simulation) -->
+    <section id="mechanism" class="py-24 bg-slate-900 text-white relative">
+        <!-- Background glow -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-blue-600/20 blur-[120px] pointer-events-none rounded-full"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Mekanisme Anti-Biofilm Multitarget</h2>
+                <p class="text-lg text-blue-200 max-w-3xl mx-auto">
+                    Membedah cara kerja MINOSAN secara molekuler. Strategi utama kami: <strong>Melumpuhkan senjata bakteri tanpa memicu seleksi alam penyebab mutasi genetik (resistensi).</strong>
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+                <!-- Pilar 1 -->
+                <div class="bg-slate-800/80 backdrop-blur-sm border border-slate-700 p-6 rounded-2xl hover:border-blue-400 transition-colors duration-300">
+                    <div class="text-blue-400 mb-4 bg-slate-900 inline-block p-3 rounded-lg border border-slate-700">
+                        <i data-lucide="zap" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">1. Disrupsi Elektrostatik</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Secara termodinamika, <strong>kitosan polikationik (+)</strong> langsung menyerang dan menghancurkan integritas matriks EPS bakteri yang kaya akan muatan <strong>negatif (-)</strong>.
+                    </p>
+                </div>
+                
+                <!-- Pilar 2 -->
+                <div class="bg-slate-800/80 backdrop-blur-sm border border-slate-700 p-6 rounded-2xl hover:border-blue-400 transition-colors duration-300">
+                    <div class="text-blue-400 mb-4 bg-slate-900 inline-block p-3 rounded-lg border border-slate-700">
+                        <i data-lucide="activity" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">2. Sustained Release</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Struktur gelasi ionik nanopartikel menghindari degradasi dini, melepaskan kurkumin secara perlahan (terkontrol) menembus celah EPS yang telah hancur.
+                    </p>
+                </div>
+
+                <!-- Pilar 3 -->
+                <div class="bg-slate-800/80 backdrop-blur-sm border border-slate-700 p-6 rounded-2xl hover:border-blue-400 transition-colors duration-300">
+                    <div class="text-blue-400 mb-4 bg-slate-900 inline-block p-3 rounded-lg border border-slate-700">
+                        <i data-lucide="database" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">3. Blokade Quorum Sensing</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Kurkumin bertindak sebagai antagonis reseptor komunikasi bakteri. Tanpa sinyal QS, bakteri "buta" dan gagal sekresi faktor virulensi perusak.
+                    </p>
+                </div>
+
+                <!-- Pilar 4 -->
+                <div class="bg-slate-800/80 backdrop-blur-sm border border-slate-700 p-6 rounded-2xl hover:border-blue-400 transition-colors duration-300">
+                    <div class="text-blue-400 mb-4 bg-slate-900 inline-block p-3 rounded-lg border border-slate-700">
+                        <i data-lucide="heart-pulse" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">4. Upregulasi Regenerasi</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Dengan hancurnya virulensi bakteri, sitokin pro-inflamasi turun drastis, memfasilitasi faktor pertumbuhan tubuh melakukan re-epitelisasi.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SIMULASI LAB DIGITAL -->
+            <div class="bg-slate-950 border border-slate-800 rounded-3xl p-6 md:p-10 shadow-2xl overflow-hidden">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 border-b border-slate-800 pb-6 gap-4">
+                    <div class="flex items-center gap-3">
+                        <i data-lucide="beaker" class="text-blue-500 w-8 h-8"></i>
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Simulasi Lab Digital In Vitro</h3>
+                            <p class="text-slate-400 text-sm">Visualisasi Interaksi Molekuler MINOSAN vs Biofilm</p>
+                        </div>
+                    </div>
+                    <button onclick="setLabStep(0)" class="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors border border-slate-700 px-4 py-2 rounded-lg bg-slate-900">
+                        <i data-lucide="rotate-ccw" class="w-4 h-4"></i> Reset Lab
+                    </button>
+                </div>
+                
+                <div class="grid lg:grid-cols-12 gap-8">
+                    
+                    <!-- Controls / Steps -->
+                    <div class="lg:col-span-4 space-y-3">
+                        <h4 class="text-slate-500 text-xs uppercase font-bold tracking-widest mb-4">Sekuensi Uji (Klik untuk lanjut)</h4>
+                        
+                        <!-- Step 0 -->
+                        <button id="btn-step-0" onclick="setLabStep(0)" class="w-full text-left p-4 rounded-xl border transition-all duration-300 flex items-center gap-4 bg-blue-600/20 border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.3)]">
+                            <div id="badge-step-0" class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm bg-red-500/20 text-red-400">1</div>
+                            <span id="text-step-0" class="font-semibold text-sm text-white">Biofilm Patogen Aktif</span>
+                        </button>
+
+                        <!-- Step 1 -->
+                        <button id="btn-step-1" onclick="setLabStep(1)" class="w-full text-left p-4 rounded-xl border transition-all duration-300 flex items-center gap-4 bg-slate-900 border-slate-800 hover:border-slate-600 opacity-50">
+                            <div id="badge-step-1" class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm bg-slate-800 text-slate-500">2</div>
+                            <span id="text-step-1" class="font-semibold text-sm text-slate-400">Aplikasi Hidrogel MINOSAN</span>
+                        </button>
+
+                        <!-- Step 2 -->
+                        <button id="btn-step-2" onclick="setLabStep(2)" class="w-full text-left p-4 rounded-xl border transition-all duration-300 flex items-center gap-4 bg-slate-900 border-slate-800 hover:border-slate-600 opacity-50">
+                            <div id="badge-step-2" class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm bg-slate-800 text-slate-500">3</div>
+                            <span id="text-step-2" class="font-semibold text-sm text-slate-400">Disrupsi Elektrostatik Kitosan</span>
+                        </button>
+
+                        <!-- Step 3 -->
+                        <button id="btn-step-3" onclick="setLabStep(3)" class="w-full text-left p-4 rounded-xl border transition-all duration-300 flex items-center gap-4 bg-slate-900 border-slate-800 hover:border-slate-600 opacity-50">
+                            <div id="badge-step-3" class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm bg-slate-800 text-slate-500">4</div>
+                            <span id="text-step-3" class="font-semibold text-sm text-slate-400">Inhibisi Quorum Sensing</span>
+                        </button>
+                    </div>
+
+                    <!-- Lab Visualizer Dashboard -->
+                    <div class="lg:col-span-8 bg-slate-900 border border-slate-700 rounded-2xl p-6 relative overflow-hidden flex flex-col justify-between">
+                        <!-- Background Grid Pattern -->
+                        <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:24px_24px] opacity-30"></div>
+                        
+                        <div class="relative z-10 flex flex-col md:flex-row gap-8 items-center h-full">
+                            
+                            <!-- Microscope View -->
+                            <div class="w-48 h-48 rounded-full border-4 border-slate-700 bg-slate-950 shadow-inner flex items-center justify-center relative overflow-hidden flex-shrink-0">
+                                <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-400 via-transparent to-transparent"></div>
+                                <!-- Reticle -->
+                                <div class="absolute inset-0 border border-slate-700/50 rounded-full m-8"></div>
+                                <div class="absolute w-full h-[1px] bg-slate-700/50"></div>
+                                <div class="absolute h-full w-[1px] bg-slate-700/50"></div>
+                                
+                                <!-- Dynamic Icon inside Scope -->
+                                <div id="lab-icon-container" class="transition-all duration-700 transform scale-100">
+                                    <div id="icon-0" class="block"><i data-lucide="alert-triangle" class="text-red-500 w-8 h-8 animate-pulse"></i></div>
+                                    <div id="icon-1" class="hidden"><i data-lucide="droplet" class="text-blue-500 w-8 h-8"></i></div>
+                                    <div id="icon-2" class="hidden"><i data-lucide="zap" class="text-emerald-500 w-8 h-8 animate-bounce"></i></div>
+                                    <div id="icon-3" class="hidden"><i data-lucide="target" class="text-amber-500 w-8 h-8"></i></div>
+                                </div>
+                            </div>
+
+                            <!-- Data Readout -->
+                            <div class="flex-1 space-y-6 w-full">
+                                <div>
+                                    <h4 id="lab-title" class="text-xl font-bold mb-2 text-red-400 transition-colors">
+                                        Biofilm Patogen Aktif
+                                    </h4>
+                                    <p id="lab-desc" class="text-sm text-slate-300 leading-relaxed min-h-[60px]">
+                                        Koloni P. aeruginosa & S. aureus membentuk matriks EPS yang tebal. Faktor virulensi diproduksi masif.
+                                    </p>
+                                </div>
+
+                                <!-- Biometric Bars -->
+                                <div class="space-y-4 pt-4 border-t border-slate-800">
+                                    <div>
+                                        <div class="flex justify-between text-xs font-semibold mb-1">
+                                            <span class="text-slate-400">Integritas Matriks EPS</span>
+                                            <span id="val-eps" class="text-slate-300">100%</span>
+                                        </div>
+                                        <div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+                                            <div id="bar-eps" class="h-full bg-blue-500 transition-all duration-1000 ease-out" style="width: 100%"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <div class="flex justify-between text-xs font-semibold mb-1">
+                                            <span class="text-slate-400">Aktivitas Quorum Sensing</span>
+                                            <span id="val-qs" class="text-slate-300">100%</span>
+                                        </div>
+                                        <div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+                                            <div id="bar-qs" class="h-full bg-amber-500 transition-all duration-1000 ease-out delay-150" style="width: 100%"></div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex justify-between text-xs font-semibold mb-1">
+                                            <span class="text-slate-400">Tingkat Inflamasi Jaringan (IL-6 & MPO)</span>
+                                            <span id="val-inf" class="text-slate-300">95%</span>
+                                        </div>
+                                        <div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+                                            <div id="bar-inf" class="h-full bg-red-500 transition-all duration-1000 ease-out delay-300" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Progress Button -->
+                        <button id="btn-next" onclick="nextLabStep()" class="absolute bottom-4 right-4 bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors flex items-center gap-2 z-20 shadow-lg">
+                            Fase Selanjutnya <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. EVIDENCE SECTION (Hasil Uji) -->
+    <section id="evidence" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Tervalidasi Secara Komputasional & Klinis</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                    Pendekatan ilmiah yang menyeluruh membuktikan kemanjuran MINOSAN dari tingkat molekuler hingga regenerasi jaringan nyata.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+                <!-- In Silico -->
+                <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 shadow-sm">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="bg-blue-100 p-3 rounded-xl text-blue-600">
+                            <i data-lucide="database" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-blue-900">Validasi In Silico</h3>
+                    </div>
+                    <p class="text-slate-600 mb-8 leading-relaxed">
+                        Melalui <span class="font-semibold text-slate-800">Molecular Docking</span> dan <span class="font-semibold text-slate-800">Simulasi Dinamika Molekuler</span>, formulasi nanopartikel kurkumin-kitosan kami menunjukkan afinitas ikatan yang superior dan stabilitas partikel yang absolut terhadap protein target bakteri.
+                    </p>
+                    <div class="flex items-center justify-between border-t border-slate-200 pt-6">
+                        <div>
+                            <p class="text-sm text-slate-500 uppercase tracking-wide font-bold mb-1">Stabilitas Partikel</p>
+                            <p class="text-3xl font-extrabold text-amber-500">Tinggi</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500 uppercase tracking-wide font-bold mb-1">Targeting Precision</p>
+                            <p class="text-3xl font-extrabold text-amber-500">Spesifik</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- In Vivo -->
+                <div class="bg-blue-600 text-white rounded-3xl p-8 shadow-xl relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 opacity-10">
+                        <i data-lucide="trending-up" class="w-52 h-52"></i>
+                    </div>
+                    <div class="relative z-10">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="bg-blue-500 p-3 rounded-xl text-white">
+                                <i data-lucide="activity" class="w-7 h-7"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white">Validasi In Vivo</h3>
+                        </div>
+                        <p class="text-blue-100 mb-8 leading-relaxed">
+                            Pengujian pada model luka kronis menunjukkan kemampuan luar biasa dalam mempercepat fase penyembuhan, menutup luka secara dramatis berkat mekanisme <i>moist wound healing</i> hidrogel.
+                        </p>
+                        
+                        <div class="mb-6">
+                            <div class="flex justify-between items-end mb-2">
+                                <span class="text-sm text-blue-200 uppercase tracking-wide font-bold">Penutupan Luka</span>
+                                <span class="text-4xl font-extrabold text-amber-400">90,94%</span>
+                            </div>
+                            <div class="h-4 bg-blue-800 rounded-full overflow-hidden">
+                                <div class="h-full bg-gradient-to-r from-amber-300 to-amber-500 w-[91%] rounded-full relative">
+                                    <div class="absolute inset-0 bg-white/20 animate-pulse"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="text-blue-200 text-sm text-right">
+                            *Tercapai hanya dalam <strong class="text-white">14 Hari</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FOOTER & VISION -->
+    <section class="bg-slate-900 pt-20 pb-10 text-slate-300 border-t-4 border-amber-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 mb-16">
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="bg-blue-600 text-white p-2 rounded-lg">
+                            <i data-lucide="dna" class="w-6 h-6"></i>
+                        </div>
+                        <span class="text-2xl font-bold text-white">
+                            MINOSAN
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Menekan Angka Amputasi, Menyelamatkan Masa Depan.</h3>
+                    <p class="leading-relaxed text-slate-400">
+                        Luka diabetes kronis (DFU) tidak lagi harus berujung pada amputasi. Melalui inovasi hidrogel nanopartikel yang revolusioner, kita dapat melawan resistensi antimikroba dengan cerdas.
+                    </p>
+                </div>
+                
+                <div class="flex flex-col justify-center">
+                    <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
+                        <h4 class="text-amber-400 font-bold mb-2 uppercase tracking-wider text-sm">Visi Kami</h4>
+                        <p class="text-white text-lg leading-relaxed">
+                            "Berkontribusi aktif mewujudkan <strong class="text-blue-400">Indonesia Emas 2045 yang Sehat</strong> melalui hilirisasi inovasi medis berbasis kekayaan alam Nusantara."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-slate-500">
+                    © <span id="current-year"></span> Tim Rupiah Turun, Kita Tetap Naik Podium - Universitas Padjadjaran. All rights reserved.
+                </p>
+                <div class="flex gap-4 text-sm font-medium text-slate-400">
+                    <a href="#" class="hover:text-blue-400 transition-colors">Jurnal Medis</a>
+                    <a href="#" class="hover:text-blue-400 transition-colors">Metodologi Riset</a>
+                    <a href="#" class="hover:text-blue-400 transition-colors">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Lab Simulation Data
+        const labData = [
+            {
+                title: "Biofilm Patogen Aktif",
+                desc: "Koloni P. aeruginosa & S. aureus membentuk matriks EPS yang tebal. Faktor virulensi diproduksi masif.",
+                eps: 100, qs: 100, inf: 95,
+                colorText: "text-red-400",
+                badgeBg: "bg-red-500/20",
+                badgeText: "text-red-400"
+            },
+            {
+                title: "Aplikasi Hidrogel MINOSAN",
+                desc: "Hidrogel dioleskan pada luka. Lingkungan luka menjadi lembap (moist wound healing), memicu pelepasan nanopartikel secara perlahan (sustained release).",
+                eps: 90, qs: 85, inf: 70,
+                colorText: "text-blue-400",
+                badgeBg: "bg-blue-500/20",
+                badgeText: "text-blue-400"
+            },
+            {
+                title: "Disrupsi Elektrostatik Kitosan",
+                desc: "Kitosan polikationik (+) berikatan kuat dengan matriks EPS dan dinding sel bakteri yang bermuatan negatif (-). Perisai fisik bakteri hancur.",
+                eps: 25, qs: 80, inf: 50,
+                colorText: "text-emerald-400",
+                badgeBg: "bg-emerald-500/20",
+                badgeText: "text-emerald-400"
+            },
+            {
+                title: "Inhibisi Quorum Sensing (Kurkumin)",
+                desc: "Nanopartikel kurkumin berhasil masuk, memblokir reseptor komunikasi antar-sel bakteri. Produksi toksin berhenti total tanpa membunuh bakteri secara langsung (bebas mutasi resistensi).",
+                eps: 10, qs: 5, inf: 15,
+                colorText: "text-amber-400",
+                badgeBg: "bg-amber-500/20",
+                badgeText: "text-amber-400"
+            }
+        ];
+
+        let currentStep = 0;
+
+        function setLabStep(step) {
+            currentStep = step;
+            updateLabUI();
+        }
+
+        function nextLabStep() {
+            if (currentStep < 3) {
+                currentStep++;
+                updateLabUI();
+            }
+        }
+
+        function updateLabUI() {
+            // Update Buttons State
+            for (let i = 0; i <= 3; i++) {
+                const btn = document.getElementById(`btn-step-${i}`);
+                const badge = document.getElementById(`badge-step-${i}`);
+                const text = document.getElementById(`text-step-${i}`);
+                
+                // Reset Classes
+                btn.className = "w-full text-left p-4 rounded-xl border transition-all duration-300 flex items-center gap-4";
+                badge.className = "w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm";
+                text.className = "font-semibold text-sm";
+
+                if (i === currentStep) {
+                    // Active
+                    btn.classList.add("bg-blue-600/20", "border-blue-500", "shadow-[0_0_15px_rgba(59,130,246,0.3)]");
+                    badge.classList.add(labData[i].badgeBg, labData[i].badgeText);
+                    text.classList.add("text-white");
+                } else if (i < currentStep) {
+                    // Passed
+                    btn.classList.add("bg-slate-900", "border-emerald-500/30", "opacity-75", "hover:bg-slate-800");
+                    badge.classList.add(labData[i].badgeBg, labData[i].badgeText);
+                    text.classList.add("text-slate-400");
+                } else {
+                    // Future
+                    btn.classList.add("bg-slate-900", "border-slate-800", "hover:border-slate-600", "opacity-50");
+                    badge.classList.add("bg-slate-800", "text-slate-500");
+                    text.classList.add("text-slate-400");
+                }
+            }
+
+            // Update Dashboard Content
+            const titleEl = document.getElementById('lab-title');
+            titleEl.textContent = labData[currentStep].title;
+            titleEl.className = `text-xl font-bold mb-2 transition-colors ${labData[currentStep].colorText}`;
+            
+            document.getElementById('lab-desc').textContent = labData[currentStep].desc;
+
+            // Update Bars
+            document.getElementById('bar-eps').style.width = labData[currentStep].eps + '%';
+            document.getElementById('val-eps').textContent = labData[currentStep].eps + '%';
+            
+            document.getElementById('bar-qs').style.width = labData[currentStep].qs + '%';
+            document.getElementById('val-qs').textContent = labData[currentStep].qs + '%';
+            
+            document.getElementById('bar-inf').style.width = labData[currentStep].inf + '%';
+            document.getElementById('val-inf').textContent = labData[currentStep].inf + '%';
+
+            // Update Icon Visibility
+            for (let i = 0; i <= 3; i++) {
+                document.getElementById(`icon-${i}`).className = (i === currentStep) ? "block" : "hidden";
+            }
+            
+            // Scope Animation
+            const container = document.getElementById('lab-icon-container');
+            container.className = currentStep > 0 ? "transition-all duration-700 transform scale-110" : "transition-all duration-700 transform scale-100";
+
+            // Update Next Button
+            const nextBtn = document.getElementById('btn-next');
+            if (currentStep < 3) {
+                nextBtn.style.display = "flex";
+            } else {
+                nextBtn.style.display = "none";
+            }
+        }
+        
+        // Initial setup
+        updateLabUI();
+    </script>
+</body>
+</html>
